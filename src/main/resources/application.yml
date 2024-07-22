@@ -1,0 +1,9 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: naming-server
+eureka:
+  client:
+    register-with-eureka: false # Desabilitado o auto-registro do eureka
+    fetch-registry: false # Desabilitado o fetch do registro
